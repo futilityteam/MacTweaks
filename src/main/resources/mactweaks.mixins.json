@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "me.futility.mactweaks.mixin",
+  "compatibilityLevel": "JAVA_${java}",
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixins": [
+  ],
+  "client": [
+    "MixinMouse",
+    "MixinTranslatableTextContent"
+  ]
+}
